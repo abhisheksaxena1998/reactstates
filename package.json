@@ -1,6 +1,6 @@
 {
-  "homepage": "http://abhisheksaxena1998.github.io/reactstates",
-  "name": "my-app",
+  "homepage": "https://abhisheksaxena1998.github.io/reactstates",
+  "name": "counter-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
