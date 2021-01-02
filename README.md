@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+## Shopping Cart in React
 
-### Live at : https://abhisheksaxena1998.github.io/reactstates/
+#### Live at : https://abhisheksaxena1998.github.io/reactstates/
+
+![screenshot](/Images/reactshoppingcart.png)
+<p align="center">
+  <img  src="/Images/shoppingcart.png">
+</p>
+ 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
