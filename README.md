@@ -4,7 +4,7 @@
 
 ![screenshot](/Images/reactshoppingcart.png)
 <p align="center">
-  <img  src="/Images/shoppingcart.png">
+  <img  width=300px src="/Images/shoppingcart.png">
 </p>
  
 
