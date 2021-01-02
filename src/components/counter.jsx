@@ -42,7 +42,7 @@ class Counter extends Component {
           onClick={() => this.props.onIncrement(this.props.counter)}
           className={this.getBadgeClasses()}
         >
-          Increment
+          Increment Quantity
         </button>
         <button
           onClick={() => this.props.onDelete(this.props.counter.id)}

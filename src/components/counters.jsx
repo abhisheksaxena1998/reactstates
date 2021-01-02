@@ -9,7 +9,7 @@ class Counters extends Component {
           onClick={this.props.onReset}
           className="btn btn-primary btn-sm m-2"
         >
-          Reset
+          Reset Cart
         </button>
         {this.props.counters.map((counter) => (
           <Counter
@@ -18,7 +18,7 @@ class Counters extends Component {
             onDelete={this.props.onDelete}
             counter={counter}
           >
-            <h4>Task Number {counter.id}</h4>
+            <h4>Item Number: {counter.id}</h4>
           </Counter>
         ))}
       </div>
