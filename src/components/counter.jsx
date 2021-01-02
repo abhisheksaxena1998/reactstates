@@ -15,6 +15,10 @@ class Counter extends Component {
     fontWeight: "bold",
   };
 
+  buttonStyle = {
+    height: 25,
+  };
+
   handleIncrement = () => {
     console.log();
     /* this.state.count++; */
@@ -35,17 +39,24 @@ class Counter extends Component {
           {this.formatCount()}
         </span>
         <button
+          style={this.buttonStyle}
           onClick={() => this.handleIncrement()}
           className={this.getBadgeClasses()}
         >
           Increment
+        </button>
+        <button
+          onClick={() => this.props.onDelete(this.props.id)}
+          className="btn btn-danger btn-sm m-2"
+        >
+          Delete
         </button>
       </React.Fragment>
     );
   }
   getBadgeClasses() {
     let classes = "badge m-2 badge-";
-    classes += this.state.value === 0 ? "warning" : "info";
+    classes += this.state.value === 0 ? "warning" : "secondary";
     return classes;
   }
 
