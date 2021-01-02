@@ -4,21 +4,24 @@ class Counter extends Component {
     state = 
     {   
         count:0,
-        tags: ['tag1','tag2','tag3']  
+        
     };
     styles={
         fontSize:14,
         fontWeight:"bold"
     };
+
+    handleIncrement(){
+        console.log("Increment clicked")
+    }
+
     render() { 
         let classes = this.getBadgeClasses();
         return (  
         <React.Fragment>
             <span style={ this.styles } className="badge badge-primary m-4">{this.formatCount()}</span>
-            <button className={ this.getBadgeClasses() }>Increment</button>
-            <ul>
-                {this.state.tags.map(tag => <li key={tag.id}>{tag}</li>)}
-            </ul>
+            <button onClick={this.handleIncrement} className={ this.getBadgeClasses() }>Increment</button>
+            
         </React.Fragment>
         );
     }
