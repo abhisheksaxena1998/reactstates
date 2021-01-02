@@ -18,7 +18,7 @@ class Counters extends Component {
             onDelete={this.props.onDelete}
             counter={counter}
           >
-            <h4>Item Number: {counter.id}</h4>
+            <h4>Item Number : {counter.id}</h4>
           </Counter>
         ))}
       </div>

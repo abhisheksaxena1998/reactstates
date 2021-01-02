@@ -55,7 +55,7 @@ class Counter extends Component {
   }
   getBadgeClasses() {
     let classes = "badge m-2 badge-";
-    classes += this.props.counter.value === 0 ? "warning" : "secondary";
+    classes += this.props.counter.value === 0 ? "warning" : "success";
     return classes;
   }
 
